@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoPlayer", "DemoPlayer\DemoPlayer.vcproj", "{08047F16-C351-4375-9F44-F7A65AEAFBCC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxTools", "MaxTools\MaxTools.vcproj", "{421CAB12-A786-4BC9-B83C-963ED8454F21}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{08047F16-C351-4375-9F44-F7A65AEAFBCC}.Debug.ActiveCfg = Debug|Win32
+		{08047F16-C351-4375-9F44-F7A65AEAFBCC}.Debug.Build.0 = Debug|Win32
+		{08047F16-C351-4375-9F44-F7A65AEAFBCC}.Release.ActiveCfg = Release|Win32
+		{08047F16-C351-4375-9F44-F7A65AEAFBCC}.Release.Build.0 = Release|Win32
+		{421CAB12-A786-4BC9-B83C-963ED8454F21}.Debug.ActiveCfg = Debug|Win32
+		{421CAB12-A786-4BC9-B83C-963ED8454F21}.Debug.Build.0 = Debug|Win32
+		{421CAB12-A786-4BC9-B83C-963ED8454F21}.Release.ActiveCfg = Release|Win32
+		{421CAB12-A786-4BC9-B83C-963ED8454F21}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

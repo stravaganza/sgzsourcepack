@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arise", "Arise\sgz_arise.vcproj", "{6FCA201E-8328-429C-A480-6C18EEE4CA8B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cafre", "Cafre\sgz_cafre.vcproj", "{AF15FED4-E774-457A-BDC0-9795B476CC14}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decadentia", "Decadentia\sgzso_decadentia.vcproj", "{4BF72996-A3A0-4F59-9887-2C8574A2AEE2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Euskal 11 Invitation", "Euskal 11 Invitation\sgz_ep11.vcproj", "{0FC2CF67-8CFE-4FEC-8B1E-4A022277651C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "r08080", "r08080\r08080.vcproj", "{940A7EFF-C258-42F2-838D-F0DBB9B65FF6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6FCA201E-8328-429C-A480-6C18EEE4CA8B}.Debug.ActiveCfg = Debug|Win32
+		{6FCA201E-8328-429C-A480-6C18EEE4CA8B}.Debug.Build.0 = Debug|Win32
+		{6FCA201E-8328-429C-A480-6C18EEE4CA8B}.Release.ActiveCfg = Release|Win32
+		{6FCA201E-8328-429C-A480-6C18EEE4CA8B}.Release.Build.0 = Release|Win32
+		{AF15FED4-E774-457A-BDC0-9795B476CC14}.Debug.ActiveCfg = Debug|Win32
+		{AF15FED4-E774-457A-BDC0-9795B476CC14}.Debug.Build.0 = Debug|Win32
+		{AF15FED4-E774-457A-BDC0-9795B476CC14}.Release.ActiveCfg = Release|Win32
+		{AF15FED4-E774-457A-BDC0-9795B476CC14}.Release.Build.0 = Release|Win32
+		{4BF72996-A3A0-4F59-9887-2C8574A2AEE2}.Debug.ActiveCfg = Debug|Win32
+		{4BF72996-A3A0-4F59-9887-2C8574A2AEE2}.Debug.Build.0 = Debug|Win32
+		{4BF72996-A3A0-4F59-9887-2C8574A2AEE2}.Release.ActiveCfg = Release|Win32
+		{4BF72996-A3A0-4F59-9887-2C8574A2AEE2}.Release.Build.0 = Release|Win32
+		{0FC2CF67-8CFE-4FEC-8B1E-4A022277651C}.Debug.ActiveCfg = Debug|Win32
+		{0FC2CF67-8CFE-4FEC-8B1E-4A022277651C}.Debug.Build.0 = Debug|Win32
+		{0FC2CF67-8CFE-4FEC-8B1E-4A022277651C}.Release.ActiveCfg = Release|Win32
+		{0FC2CF67-8CFE-4FEC-8B1E-4A022277651C}.Release.Build.0 = Release|Win32
+		{940A7EFF-C258-42F2-838D-F0DBB9B65FF6}.Debug.ActiveCfg = Debug|Win32
+		{940A7EFF-C258-42F2-838D-F0DBB9B65FF6}.Debug.Build.0 = Debug|Win32
+		{940A7EFF-C258-42F2-838D-F0DBB9B65FF6}.Release.ActiveCfg = Release|Win32
+		{940A7EFF-C258-42F2-838D-F0DBB9B65FF6}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

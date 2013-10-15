@@ -1,0 +1,205 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TOOLDIALOG DIALOG DISCARDABLE  0, 0, 109, 557
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Load defaults",IDC_BUTTON_LOADDEFAULTS,20,30,69,15
+    GROUPBOX        "COMMON OPTIONS",IDC_STATIC,0,54,109,177
+    CONTROL         "Preprocess meshes",IDC_CHECK_PREPROCESSMESHES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,70,83,10
+    CONTROL         "Use lights",IDC_CHECK_USELIGHTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,84,83,9
+    LTEXT           "Interval:",IDC_STATIC,6,97,44,8
+    LTEXT           "Time start",IDC_STATIC,20,110,40,10
+    CONTROL         "",IDC_EDIT_STARTTIME,"CustEdit",WS_TABSTOP,60,110,37,10
+    CONTROL         "",IDC_SPIN_STARTTIME,"SpinnerControl",0x0,97,110,9,10
+    LTEXT           "Time end",IDC_STATIC,20,124,40,9
+    CONTROL         "",IDC_EDIT_ENDTIME,"CustEdit",WS_TABSTOP,60,124,37,10
+    CONTROL         "",IDC_SPIN_ENDTIME,"SpinnerControl",WS_GROUP,97,124,9,
+                    10
+    LTEXT           "Anim check step",IDC_STATIC,6,140,54,8
+    CONTROL         "",IDC_EDIT_ANIMCHECKSTEP,"CustEdit",WS_TABSTOP,60,140,
+                    37,10
+    CONTROL         "",IDC_SPIN_ANIMCHECKSTEP,"SpinnerControl",0x0,97,140,9,
+                    10
+    CONTROL         "Anim. sampling (frequency):",IDC_RADIO_USESAMPLING,
+                    "Button",BS_AUTORADIOBUTTON,5,158,100,12
+    LTEXT           "Position",IDC_STATIC,20,173,40,8
+    CONTROL         "",IDC_EDIT_POSSAMPLINGFREQ,"CustEdit",WS_TABSTOP,60,173,
+                    39,10
+    CONTROL         "",IDC_SPIN_POSSAMPLINGFREQ,"SpinnerControl",0x0,98,173,
+                    9,10
+    LTEXT           "Scale",IDC_STATIC,20,185,40,9
+    CONTROL         "",IDC_EDIT_SCLSAMPLINGFREQ,"CustEdit",WS_TABSTOP,60,185,
+                    39,10
+    CONTROL         "",IDC_SPIN_SCLSAMPLINGFREQ,"SpinnerControl",0x0,97,185,
+                    9,10
+    LTEXT           "Rotation",IDC_STATIC,20,199,40,8
+    CONTROL         "",IDC_EDIT_ROTSAMPLINGFREQ,"CustEdit",WS_TABSTOP,60,198,
+                    39,10
+    CONTROL         "",IDC_SPIN_ROTSAMPLINGFREQ,"SpinnerControl",0x0,97,198,
+                    9,10
+    CONTROL         "Use MAX keys",IDC_RADIO_USEMAXKEYS,"Button",
+                    BS_AUTORADIOBUTTON,5,214,66,11
+    GROUPBOX        "EXPORT",IDC_STATIC,0,233,109,101,WS_GROUP
+    LTEXT           "Destination file:",IDC_STATIC,6,249,61,8
+    CONTROL         "",IDC_EDIT_DESTINATIONFILE,"CustEdit",WS_TABSTOP,7,260,
+                    82,13
+    PUSHBUTTON      "..",IDC_BUTTON_DESTINATIONFILE,92,260,9,13
+    CONTROL         "Copy textures to folder:",IDC_CHECK_COPYTEXTURES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,278,91,11
+    CONTROL         "",IDC_EDIT_TEXTUREFOLDER,"CustEdit",WS_TABSTOP,7,294,82,
+                    13
+    PUSHBUTTON      "..",IDC_BUTTON_TEXTUREFOLDER,92,294,9,13
+    PUSHBUTTON      "Export",IDC_BUTTON_EXPORT,20,312,69,14
+    GROUPBOX        "PREVIEW",IDC_STATIC,0,339,109,214,WS_GROUP
+    LTEXT           "Camera:",IDC_STATIC,5,355,55,8
+    COMBOBOX        IDC_COMBO_CAMERA,6,368,98,54,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Wireframe",IDC_RADIO_WIREFRAME,"Button",
+                    BS_AUTORADIOBUTTON,6,387,54,15
+    CONTROL         "Solid",IDC_RADIO_SOLID,"Button",BS_AUTORADIOBUTTON,6,
+                    402,54,15
+    CONTROL         "Full Detail",IDC_RADIO_FULLDETAIL,"Button",
+                    BS_AUTORADIOBUTTON,6,417,54,15
+    CONTROL         "Fullscreen",IDC_CHECK_FULLSCREEN,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,6,438,54,9
+    CONTROL         "Loop",IDC_CHECK_LOOP,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,61,438,36,9
+    CTEXT           "Resolution:",IDC_STATIC,6,455,61,11
+    CONTROL         "",IDC_EDIT_RESW,"CustEdit",WS_TABSTOP,7,466,23,10
+    CTEXT           "x",IDC_STATIC,31,464,8,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EDIT_RESH,"CustEdit",WS_TABSTOP,40,466,23,10
+    LTEXT           "Viewport:",IDC_STATIC,70,455,33,11
+    CONTROL         "",IDC_EDIT_VIEWPORTHEIGHT,"CustEdit",WS_TABSTOP,67,466,
+                    30,10
+    CONTROL         "",IDC_SPIN_VIEWPORTHEIGHT,"SpinnerControl",0x0,97,466,9,
+                    10
+    CONTROL         "Show statistics",IDC_CHECK_SHOWSTATS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,483,67,11
+    CONTROL         "Render to avi:",IDC_CHECK_RENDERTOAVI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,499,65,11
+    CONTROL         "",IDC_EDIT_AVIFILE,"CustEdit",WS_TABSTOP,7,513,82,13
+    PUSHBUTTON      "..",IDC_BUTTON_AVIFILE,94,513,9,13
+    PUSHBUTTON      "Preview",IDC_BUTTON_PREVIEW,20,533,69,14
+    CONTROL         111,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,1,5,
+                    107,22
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TOOLDIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 20
+        VERTGUIDE, 60
+        VERTGUIDE, 89
+        BOTTOMMARGIN, 553
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TITLE               BITMAP  DISCARDABLE     "title.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_SHORTCUTS ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_F5,          ID_SHORTCUT_PREVIEW,    VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ACTION_PREVIEW      "SGZ MaxTools : Preview"
+    IDS_SGZMAXTOOLS         "SGZ MaxTools"
+END
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

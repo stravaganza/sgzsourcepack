@@ -1,0 +1,122 @@
+    _________________________________________________________
+
+          S T R A V A G A N Z A     S O U R C E P A C K
+
+                    POR ITHAQUA / Stravaganza
+   _________________________________________________________
+
+
+       1. INTRODUCCIÓN
+       2. INSTRUCCIONES DE COMPILACIÓN
+            2.1  LIBRERÍAS
+            2.2  TOOLS
+            2.3  DEMOS
+       3. GREETINS
+       4. CONTACTO
+
+
+     1. Introducción
+
+             Este archivo contiene todas las fuentes usadas
+             por Stravaganza en sus producciones desde el 2003:
+             Euskal 11 Invitation, Cafre, Decadentia, r08080
+             y Arise. Las demos más antiguas no han sido
+             añadidas porque usan otro sistema.
+             Todas las fuentes han sido incluidas salvo algunas
+             tools que están en desarrollo o están siendo
+             portadas a otra plataforma (el editor por ejemplo).
+             ¿Por qué sacar las fuentes? porque probablemente
+             tengan mayor utilidad en manos de otra gente y
+             no solamente mía. Nunca viene mal ver como
+             resuelve la gente problemas con los que nos hemos
+             encontrado alguna vez.
+             Los rippers me dan igual sinceramente, dudo que
+             tengan paciencia como para extraer algo de aquí :)
+
+             Proyectos incluidos:
+
+                    Librerías
+                        Librería base
+                        Motor 3D
+                        DemoSystem
+                        Plugins
+                    Tools
+                        DemoPlayer
+                        3DStudioMAX Tools
+                        DemoEditor  (no incluido, portando)
+                        VoteCounter (no incluido)
+                        VJ System   (no incluido, en desarrollo)
+                    Demos
+                        Euskal 11 Invitation
+                        Cafre
+                        Decadentia
+                        r08080
+                        Arise
+
+             Las fuentes administradas son a través de
+             workspaces tanto de VC6 como de VC.NET.
+       
+
+     2. Instrucciones de compilación y enlace
+
+         2.1 Librerías
+
+             Abrir el workspace de VC6 (.dsw) o VC7 (.sln)
+             situado en \Libs\Src.
+             Compilar+enlazar todo. Ésto generará 3 libererías
+             estáticas (librería base, motor 3D y demosystem)
+             más la librería de importacíon y la dll de los
+             plugins.
+
+         2.2 Tools
+
+             Abre el workspace de VC6/VC7 situado en
+             \Tools\Src\ y configura los paths de include y
+             de búsqueda de librerías del plugin de MAX para
+             que apunten a los correspondientes directorios
+             del MAX SDK.
+             compila todo.
+             Si quieres usar el plugin de MAX mételo en
+             el directorio plugins\ de MAX y ábrelo desde
+             el panel de utilidades.
+             FreeImage.dll necesitará estar en el directorio
+             raíz del max. Cópialo de Libs\External\dll
+
+         2.3 Demos
+
+             Después de compilar todas las librerías
+             podrás commpilar y linkar las demos. La dll
+             de los plugins necesitará estar en cada directorio
+             de los exes para ser ejecutado así como BASS.dll
+             y FreeImage.dll.
+             Los ficheros binarios también necesitarán estar
+             en el directorio.
+
+
+     3. Greetings
+
+         Muchas gracias a toda la gente que ha apoyado e
+         influenciado de alguna manera mi trabajo. En especial:
+
+             David Morris            (Talsit/CoD)
+             Antonio Tejada          (evanGLizr)
+             Javier Arévalo          (Jare/Iguana)
+             David Notario           (Mac/Threepixels)
+             Angel Sastre            (Reboot/Incognita)
+             Jesús de Santos García  (Ent/Incognita)
+             Oscar Garcia            (Bob/Orbital Dreams)
+             Jose Antonio Guerra     (Balder/Drink Team)
+             Mercedes, ethernet, Isaac2, Open Scene Graph,
+             la gente de Elco Sistemas/Tecnobit...
+
+             ...y un montón de gente de la que probablemente
+             me haya olvidado.
+
+
+     4. Contacto
+
+             Web    : http://ithaqua.stravaganza.org
+             E-Mail : ithaqua@maptel.es
+
+    _________________________________________________________
+     Madrid, España, 06-01-2005                              .

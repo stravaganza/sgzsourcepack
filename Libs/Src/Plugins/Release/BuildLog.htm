@@ -1,0 +1,305 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Plugins, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000B.rsp" with contents
+[
+/O2 /G6 /I "..\..\include" /I "..\..\external\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "PLUGINS_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Yu"Plugins.h" /Fp".\Release/Plugins.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c
+.\FX_Common.cpp
+]
+Creating command line "cl.exe @d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000B.rsp /nologo"
+Creating temporary file "d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000C.rsp" with contents
+[
+/O2 /G6 /I "..\..\include" /I "..\..\external\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PLUGINS_EXPORTS" /FD /EHsc /MD /Yc"Plugins.h" /Fp".\Release/Plugins.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c
+.\Plugins.cpp
+]
+Creating command line "cl.exe @d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000C.rsp /nologo"
+Creating temporary file "d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000D.rsp" with contents
+[
+/O2 /G6 /I "..\..\include" /I "..\..\external\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PLUGINS_EXPORTS" /FD /EHsc /MD /Yu"Plugins.h" /Fp".\Release/Plugins.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c
+.\PluginFactory.cpp
+.\Main.cpp
+.\ResourceTexture2D.cpp
+.\ResourceSpline.cpp
+.\ResourceScene.cpp
+.\FuncTriangle.cpp
+.\FuncSine.cpp
+.\FuncSawTooth.cpp
+.\FuncRandom.cpp
+.\FuncQuad.cpp
+.\FuncInvSawTooth.cpp
+.\FuncFFT.cpp
+.\FuncConstant.cpp
+.\CurveSplineTCB.cpp
+.\CurveSplineHermite.cpp
+.\CurveSplineCatmullRom.cpp
+.\CurveSplineBezier.cpp
+.\CurveSpline.cpp
+.\CurveSegmentSetStep.cpp
+.\CurveSegmentSetLinear.cpp
+.\CurveSegmentSet.cpp
+.\VarString.cpp
+.\VarSpeed.cpp
+.\VarInt.cpp
+.\VarFloat.cpp
+.\VarCombo.cpp
+.\VarColor.cpp
+.\FXWater.cpp
+.\FXViewportPixels.cpp
+.\FXViewport.cpp
+.\FXTwistedObject.cpp
+.\FXTransToCubedBitmap.cpp
+.\FXTransExplodingCubes.cpp
+.\FXTextureOnObject.cpp
+.\FXTelevisionBitmap.cpp
+.\FXTelevision.cpp
+.\FXStencilState.cpp
+.\FXStencilMaskBitmap.cpp
+.\FXSplineEvTextured.cpp
+.\FXSplineEvStencilSprite.cpp
+.\FXSplineEvSprite.cpp
+.\FXSplineEvParticles.cpp
+.\FXSplineEvaluator.cpp
+.\FXSplineBillboards.cpp
+.\FXShinyScene.cpp
+.\FXSceneGlow.cpp
+.\FXSceneExplosion.cpp
+.\FXSceneDOF.cpp
+.\FXSceneConstruction.cpp
+.\FXScene.cpp
+.\FXRTTRadialHilights.cpp
+.\FXRTTMotionBlurHilights.cpp
+.\FXRTTHilights.cpp
+.\FXRings.cpp
+.\FXRenderToTexture.cpp
+.\FXRecursiveBlurTexture.cpp
+.\FXRecursiveBlur.cpp
+.\FXRadialBlurTexture.cpp
+.\FXRadialBlur2Texture.cpp
+.\FXRadialBlur2.cpp
+.\FXRadialBlur.cpp
+.\FXQuadGalore2.cpp
+.\FXQuadGalore.cpp
+.\FXMotionBlurTexture.cpp
+.\FXMotionBlur.cpp
+.\FXMosaic.cpp
+.\FXFog.cpp
+.\FXFadeInvert.cpp
+.\FXFade.cpp
+.\FXExplodingBitmap.cpp
+.\FXDistortion.cpp
+.\FXDistortedBitmap.cpp
+.\FXDiscoFloor.cpp
+.\FXCrossFade.cpp
+.\FXCreationRays.cpp
+.\FXCreateExplodeBranches.cpp
+.\FXClearFramebuffer.cpp
+.\FXBoxBlurTexture.cpp
+.\FXBoxBlur.cpp
+.\FXBitmap.cpp
+.\FXBillboardScene.cpp
+]
+Creating command line "cl.exe @d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000D.rsp /nologo"
+Creating temporary file "d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000E.rsp" with contents
+[
+/OUT:"..\..\bin\sgz_plugins.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\lib" /LIBPATH:"..\..\external\lib" /DLL /NODEFAULTLIB:"libc" /PDB:".\Release/sgz_plugins.pdb" /IMPLIB:"..\..\lib\sgz_plugins.lib" /MACHINE:X86 odbc32.lib odbccp32.lib opengl32.lib freeimage.lib bass.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib \Stravaganza\Libs\Lib\BaseLib.lib \Stravaganza\Libs\Lib\DemoSystem.lib \Stravaganza\Libs\Lib\Engine.lib
+.\Release\FX_Common.obj
+.\Release\FXBillboardScene.obj
+.\Release\FXBitmap.obj
+.\Release\FXBoxBlur.obj
+.\Release\FXBoxBlurTexture.obj
+.\Release\FXClearFramebuffer.obj
+.\Release\FXCreateExplodeBranches.obj
+.\Release\FXCreationRays.obj
+.\Release\FXCrossFade.obj
+.\Release\FXDiscoFloor.obj
+.\Release\FXDistortedBitmap.obj
+.\Release\FXDistortion.obj
+.\Release\FXExplodingBitmap.obj
+.\Release\FXFade.obj
+.\Release\FXFadeInvert.obj
+.\Release\FXFog.obj
+.\Release\FXMosaic.obj
+.\Release\FXMotionBlur.obj
+.\Release\FXMotionBlurTexture.obj
+.\Release\FXQuadGalore.obj
+.\Release\FXQuadGalore2.obj
+.\Release\FXRadialBlur.obj
+.\Release\FXRadialBlur2.obj
+.\Release\FXRadialBlur2Texture.obj
+.\Release\FXRadialBlurTexture.obj
+.\Release\FXRecursiveBlur.obj
+.\Release\FXRecursiveBlurTexture.obj
+.\Release\FXRenderToTexture.obj
+.\Release\FXRings.obj
+.\Release\FXRTTHilights.obj
+.\Release\FXRTTMotionBlurHilights.obj
+.\Release\FXRTTRadialHilights.obj
+.\Release\FXScene.obj
+.\Release\FXSceneConstruction.obj
+.\Release\FXSceneDOF.obj
+.\Release\FXSceneExplosion.obj
+.\Release\FXSceneGlow.obj
+.\Release\FXShinyScene.obj
+.\Release\FXSplineBillboards.obj
+.\Release\FXSplineEvaluator.obj
+.\Release\FXSplineEvParticles.obj
+.\Release\FXSplineEvSprite.obj
+.\Release\FXSplineEvStencilSprite.obj
+.\Release\FXSplineEvTextured.obj
+.\Release\FXStencilMaskBitmap.obj
+.\Release\FXStencilState.obj
+.\Release\FXTelevision.obj
+.\Release\FXTelevisionBitmap.obj
+.\Release\FXTextureOnObject.obj
+.\Release\FXTransExplodingCubes.obj
+.\Release\FXTransToCubedBitmap.obj
+.\Release\FXTwistedObject.obj
+.\Release\FXViewport.obj
+.\Release\FXViewportPixels.obj
+.\Release\FXWater.obj
+.\Release\VarColor.obj
+.\Release\VarCombo.obj
+.\Release\VarFloat.obj
+.\Release\VarInt.obj
+.\Release\VarSpeed.obj
+.\Release\VarString.obj
+.\Release\CurveSegmentSet.obj
+.\Release\CurveSegmentSetLinear.obj
+.\Release\CurveSegmentSetStep.obj
+.\Release\CurveSpline.obj
+.\Release\CurveSplineBezier.obj
+.\Release\CurveSplineCatmullRom.obj
+.\Release\CurveSplineHermite.obj
+.\Release\CurveSplineTCB.obj
+.\Release\FuncConstant.obj
+.\Release\FuncFFT.obj
+.\Release\FuncInvSawTooth.obj
+.\Release\FuncQuad.obj
+.\Release\FuncRandom.obj
+.\Release\FuncSawTooth.obj
+.\Release\FuncSine.obj
+.\Release\FuncTriangle.obj
+.\Release\ResourceScene.obj
+.\Release\ResourceSpline.obj
+.\Release\ResourceTexture2D.obj
+.\Release\Main.obj
+.\Release\PluginFactory.obj
+.\Release\Plugins.obj
+]
+Creating command line "link.exe @d:\Stravaganza\Libs\Src\Plugins\Release\RSP00000E.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+Plugins.cpp
+Compiling...
+FX_Common.cpp
+Compiling...
+PluginFactory.cpp
+Main.cpp
+ResourceTexture2D.cpp
+ResourceSpline.cpp
+ResourceScene.cpp
+FuncTriangle.cpp
+FuncSine.cpp
+FuncSawTooth.cpp
+FuncRandom.cpp
+FuncQuad.cpp
+FuncInvSawTooth.cpp
+FuncFFT.cpp
+FuncConstant.cpp
+CurveSplineTCB.cpp
+CurveSplineHermite.cpp
+CurveSplineCatmullRom.cpp
+CurveSplineBezier.cpp
+CurveSpline.cpp
+CurveSegmentSetStep.cpp
+CurveSegmentSetLinear.cpp
+Generating Code...
+Compiling...
+CurveSegmentSet.cpp
+VarString.cpp
+VarSpeed.cpp
+VarInt.cpp
+VarFloat.cpp
+VarCombo.cpp
+VarColor.cpp
+FXWater.cpp
+FXViewportPixels.cpp
+FXViewport.cpp
+FXTwistedObject.cpp
+FXTransToCubedBitmap.cpp
+FXTransExplodingCubes.cpp
+FXTextureOnObject.cpp
+FXTelevisionBitmap.cpp
+FXTelevision.cpp
+FXStencilState.cpp
+FXStencilMaskBitmap.cpp
+FXSplineEvTextured.cpp
+FXSplineEvStencilSprite.cpp
+Generating Code...
+Compiling...
+FXSplineEvSprite.cpp
+FXSplineEvParticles.cpp
+FXSplineEvaluator.cpp
+FXSplineBillboards.cpp
+FXShinyScene.cpp
+FXSceneGlow.cpp
+FXSceneExplosion.cpp
+FXSceneDOF.cpp
+FXSceneConstruction.cpp
+FXScene.cpp
+FXRTTRadialHilights.cpp
+FXRTTMotionBlurHilights.cpp
+FXRTTHilights.cpp
+FXRings.cpp
+FXRenderToTexture.cpp
+FXRecursiveBlurTexture.cpp
+FXRecursiveBlur.cpp
+FXRadialBlurTexture.cpp
+FXRadialBlur2Texture.cpp
+FXRadialBlur2.cpp
+Generating Code...
+Compiling...
+FXRadialBlur.cpp
+FXQuadGalore2.cpp
+FXQuadGalore.cpp
+FXMotionBlurTexture.cpp
+FXMotionBlur.cpp
+FXMosaic.cpp
+FXFog.cpp
+FXFadeInvert.cpp
+FXFade.cpp
+FXExplodingBitmap.cpp
+FXDistortion.cpp
+FXDistortedBitmap.cpp
+FXDiscoFloor.cpp
+FXCrossFade.cpp
+FXCreationRays.cpp
+FXCreateExplodeBranches.cpp
+FXClearFramebuffer.cpp
+FXBoxBlurTexture.cpp
+FXBoxBlur.cpp
+FXBitmap.cpp
+Generating Code...
+Compiling...
+FXBillboardScene.cpp
+Generating Code...
+Linking...
+   Creating library ..\..\lib\sgz_plugins.lib and object ..\..\lib\sgz_plugins.exp
+LINK : warning LNK4089: all references to 'GDI32.dll' discarded by /OPT:REF
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://d:\Stravaganza\Libs\Src\Plugins\Release\BuildLog.htm"
+Plugins - 0 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

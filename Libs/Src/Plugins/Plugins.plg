@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BaseLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\external\include\zlib" /I "..\..\external\include\unrarlib" /I "..\..\include" /I "..\..\external\include" /I "..\..\external\include\stlport" /D "_LIB" /D "_DEBUG" /D "WIN32" /D "_MBCS" /Fp"Debug/BaseLib.pch" /Yu"BaseLib.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Stravaganza\Libs\Src\BaseLib\Bitmap.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\DatFile.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\InputFile.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\InputMemory.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\InputRarFile.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\InputZipFile.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\Logger.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\MemTracer.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\OutputFile.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\OutputMemory.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\Parser.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\Timer.cpp"
+"D:\Stravaganza\Libs\Src\BaseLib\WriterASCII.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A1.tmp" 
+Creating temporary file "D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\external\include\zlib" /I "..\..\external\include\unrarlib" /I "..\..\include" /I "..\..\external\include" /I "..\..\external\include\stlport" /D "_LIB" /D "_DEBUG" /D "WIN32" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Stravaganza\Libs\External\src\zlib\adler32.c"
+"D:\Stravaganza\Libs\External\src\zlib\compress.c"
+"D:\Stravaganza\Libs\External\src\zlib\crc32.c"
+"D:\Stravaganza\Libs\External\src\zlib\deflate.c"
+"D:\Stravaganza\Libs\External\src\zlib\gzio.c"
+"D:\Stravaganza\Libs\External\src\zlib\infblock.c"
+"D:\Stravaganza\Libs\External\src\zlib\infcodes.c"
+"D:\Stravaganza\Libs\External\src\zlib\inffast.c"
+"D:\Stravaganza\Libs\External\src\zlib\inflate.c"
+"D:\Stravaganza\Libs\External\src\zlib\inftrees.c"
+"D:\Stravaganza\Libs\External\src\zlib\infutil.c"
+"D:\Stravaganza\Libs\External\src\zlib\trees.c"
+"D:\Stravaganza\Libs\External\src\zlib\uncompr.c"
+"D:\Stravaganza\Libs\External\src\zlib\unzip.c"
+"D:\Stravaganza\Libs\External\src\zlib\zutil.c"
+"D:\Stravaganza\Libs\External\src\unrarlib\unrarlib.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A2.tmp" 
+Creating temporary file "D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\external\include\zlib" /I "..\..\external\include\unrarlib" /I "..\..\include" /I "..\..\external\include" /I "..\..\external\include\stlport" /D "_LIB" /D "_DEBUG" /D "WIN32" /D "_MBCS" /Fp"Debug/BaseLib.pch" /Yc /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Stravaganza\Libs\Src\BaseLib\BaseLib.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A3.tmp" 
+Creating temporary file "D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A4.tmp" with contents
+[
+/nologo /out:"..\..\Lib\BaseLibd.lib" 
+.\Debug\Bitmap.obj
+.\Debug\DatFile.obj
+.\Debug\InputFile.obj
+.\Debug\InputMemory.obj
+.\Debug\InputRarFile.obj
+.\Debug\InputZipFile.obj
+.\Debug\Logger.obj
+.\Debug\MemTracer.obj
+.\Debug\OutputFile.obj
+.\Debug\OutputMemory.obj
+.\Debug\Parser.obj
+.\Debug\Timer.obj
+.\Debug\WriterASCII.obj
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\deflate.obj
+.\Debug\gzio.obj
+.\Debug\infblock.obj
+.\Debug\infcodes.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\infutil.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\unzip.obj
+.\Debug\zutil.obj
+.\Debug\unrarlib.obj
+.\Debug\BaseLib.obj
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\Kike\CONFIG~1\Temp\RSP7A4.tmp"
+<h3>Output Window</h3>
+Compiling...
+BaseLib.cpp
+Compiler terminating.  Please wait. Abort complete.
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MaxTools - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Kike\CONFIG~1\Temp\RSPD.tmp" with contents
+[
+vfw32.lib comctl32.lib maxutil.lib geom.lib core.lib mesh.lib paramblk2.lib bmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib freeimage.lib glu32.lib BaseLibd.lib Engined.lib /nologo /dll /incremental:yes /pdb:"Debug/SGZMaxToolsd.pdb" /debug /machine:I386 /nodefaultlib:"libcd" /nodefaultlib:"libc" /out:"..\..\bin\MaxTools\SGZMaxToolsd.dlu" /implib:"Debug/SGZMaxToolsd.lib" /pdbtype:sept /libpath:"c:\archiv~1\3dsmax6\maxsdk\lib" /libpath:"..\..\..\Libs\lib\\" /libpath:"..\..\..\Libs\external\lib" 
+.\Debug\BuildAnimation.obj
+.\Debug\BuildNodes.obj
+.\Debug\BuildPhysique.obj
+.\Debug\BuildShaders.obj
+.\Debug\ClassMaxTools.obj
+.\Debug\Config.obj
+.\Debug\DlgProc.obj
+.\Debug\DllMain.obj
+.\Debug\ExportPreview.obj
+.\Debug\Keyboard.obj
+.\Debug\WinPreview.obj
+.\Debug\MaxTools.obj
+.\Debug\MaxTools.res
+]
+Creating command line "link.exe @D:\DOCUME~1\Kike\CONFIG~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Debug/SGZMaxToolsd.lib and object Debug/SGZMaxToolsd.exp
+BuildShaders.obj : error LNK2001: unresolved external symbol "public: virtual char * __thiscall ClassDesc::GetRsrcString(long)" (?GetRsrcString@ClassDesc@@UAEPADJ@Z)
+DllMain.obj : error LNK2001: unresolved external symbol "public: virtual char * __thiscall ClassDesc::GetRsrcString(long)" (?GetRsrcString@ClassDesc@@UAEPADJ@Z)
+BuildShaders.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl ParamBlockDesc2::ParamBlockDesc2(short,char *,long,class ClassDesc2 *,unsigned short,...)" (__imp_??0ParamBlockDesc2@@QAA@FPADJPAVClassDesc2@@GZZ)
+BuildShaders.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall ParamBlock2PLCB::Execute(int,unsigned long,unsigned long,unsigned long)" (?Execute@ParamBlock2PLCB@@UAEJHKKK@Z)
+..\..\bin\MaxTools\SGZMaxToolsd.dlu : fatal error LNK1120: 3 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+SGZMaxToolsd.dlu - 5 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
